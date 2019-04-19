@@ -1,7 +1,7 @@
 package com.founder.concurrence.thread.sync006;
 /**
  * synchronized代码块对字符串的锁，注意String常量池的缓存功能
- * @author alienware
+ * @author 6001
  *
  */
 public class StringLock {

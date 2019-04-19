@@ -1,7 +1,7 @@
 package com.founder.concurrence.thread.sync006;
 /**
  * 同一对象属性的修改不会影响锁的情况
- * @author alienware
+ * @author 6004
  *
  */
 public class ModifyLock {

@@ -2,7 +2,7 @@ package com.founder.concurrence.thread.sync006;
 
 /**
  * 使用synchronized代码块减小锁的粒度，提高性能
- * @author alienware
+ * @author 6006
  *
  */
 public class Optimize {

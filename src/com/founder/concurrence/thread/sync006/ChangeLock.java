@@ -1,7 +1,7 @@
 package com.founder.concurrence.thread.sync006;
 /**
  * 锁对象的改变问题
- * @author alienware
+ * @author 6003
  *
  */
 public class ChangeLock {
