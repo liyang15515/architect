@@ -2,25 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eabc1b58-602e-4664-98ba-1957bb0334ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd2sync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync009/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync010/ConnThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011/DubbleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011/Singletion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/TimeUinitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseConcurrentMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseCopyOnWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UsePriorityBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/WangBa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/Wangmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/TestHoldCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseManyCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync022/UseReentrantReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/FutureClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/FutureData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/RealData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync017/ScheduledJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync017/UseExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/MyRejected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/UseThreadPoolExecutor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/UseThreadPoolExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/MyRejected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/TestThreadPoolExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync007/VolatileNoAtomic.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync007/VolatileNoAtomic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync012/Tickets$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync012/Tickets$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync012/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/architect/com/founder/concurrence/thread/sync012/Tickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,79 +48,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseConcurrentMap.java">
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseFuture.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseSemaphore.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/Wangmin.java">
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/MyRejected.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseCopyOnWrite.java">
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/Task.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/WangBa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/TestThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync009/MyQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2111">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseCondition.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync010/ConnThreadLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="20" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/TestHoldCount.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011/Singletion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseManyCondition.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011/DubbleSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java">
+        <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync022/UseReentrantReadWriteLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -147,9 +139,18 @@
         <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd1.java" />
         <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd2.java" />
         <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008/ListAdd2sync.java" />
-        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java" />
         <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/WangBa.java" />
         <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011/Singletion.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/FutureClient.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Task.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Data.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync017/ScheduledJob.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync018/UseThreadPoolExecutor2.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseSemaphore.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/TestThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync022/UseReentrantReadWriteLock.java" />
       </list>
     </option>
   </component>
@@ -157,6 +158,9 @@
     <option name="x" value="1280" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,7 +199,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="concurrence" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="sync008" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -203,7 +207,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="concurrence" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="sync009" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="sync021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -211,15 +216,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="concurrence" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="sync010" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="architect" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrence" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="sync011" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="sync022" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +233,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="concurrence" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="sync013" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555681449952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555684077795" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,17 +256,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.founder.concurrence.thread.lock.sync022" />
       <recent name="com.founder.concurrence.thread.sync012" />
       <recent name="com.founder.concurrence.thread.sync008" />
       <recent name="com.founder.concurrence.thread.sync010" />
       <recent name="com.founder.concurrence.thread.sync009" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013" />
-      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync011" />
-      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync008" />
-      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync007" />
-      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006" />
+      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021" />
+      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020" />
+      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019" />
+      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync018" />
+      <recent name="$PROJECT_DIR$/src/com/founder/concurrence/thread/sync017" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DubbleSingleton">
+  <component name="RunManager" selected="Application.Tickets">
     <configuration name="ConnThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.founder.concurrence.thread.sync010.ConnThreadLocal" />
       <module name="architect" />
@@ -303,19 +302,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.founder.concurrence.thread.sync011.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListAdd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.founder.concurrence.thread.sync008.ListAdd2" />
-      <module name="architect" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.founder.concurrence.thread.sync008.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,13 +335,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.founder.concurrence.thread.sync012.Tickets" />
+      <module name="architect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.founder.concurrence.thread.sync012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tickets" />
         <item itemvalue="Application.DubbleSingleton" />
         <item itemvalue="Application.ConnThreadLocal" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.ListAdd2sync" />
-        <item itemvalue="Application.ListAdd2" />
       </list>
     </recent_temporary>
   </component>
@@ -370,12 +369,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555468729273</updated>
       <workItem from="1555468738501" duration="1372000" />
-      <workItem from="1555588894829" duration="20626000" />
+      <workItem from="1555588894829" duration="23177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21998000" />
+    <option name="totallyTimeSpent" value="24549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -500,141 +499,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/CThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/BThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/AThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync001/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync002/MultiThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync003/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync004/DirtyRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync005/SyncDubbo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync005/SyncDubbo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/ObjectLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/StringLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync005/SyncException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#878#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/ChangeLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/ModifyLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync006/Optimize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync007/RunThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -688,9 +552,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/Task.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/UseDeque.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -754,8 +615,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync012/Tickets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="364">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync013/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/FutureData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/RealData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/Data.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync014/FutureClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Master.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Worker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync015/Task.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Provider.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/sync016/Data.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync017/UseExecutors.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync017/ScheduledJob.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/UseThreadPoolExecutor1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/MyRejected.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/MyTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync018/UseThreadPoolExecutor2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseCyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseCountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseFuture.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync019/UseSemaphore.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/MyRejected.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/Task.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/threadpool/sync020/TestThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseCondition.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/TestHoldCount.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseManyCondition.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync021/UseReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/founder/concurrence/thread/lock/sync022/UseReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>

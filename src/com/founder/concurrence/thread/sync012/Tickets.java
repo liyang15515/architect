@@ -1,5 +1,6 @@
 package com.founder.concurrence.thread.sync012;
 
+import java.util.Iterator;
 import java.util.Vector;
 
 /**
@@ -18,11 +19,11 @@ public class Tickets {
 		for(int i = 1; i<= 1000; i++){
 			tickets.add("火车票"+i);
 		}
-		
-//		for (Iterator iterator = tickets.iterator(); iterator.hasNext();) {
+
+/*		for (Iterator iterator = tickets.iterator(); iterator.hasNext();) {
 //			String string = (String) iterator.next();
-//			tickets.remove(20);
-//		}
+			System.out.println(Thread.currentThread().getName() + "---" + tickets.remove(0));
+		}*/
 		
 		for(int i = 1; i <=10; i ++){
 			new Thread("线程"+i){
@@ -34,5 +35,6 @@ public class Tickets {
 				}
 			}.start();
 		}
+
 	}
 }
