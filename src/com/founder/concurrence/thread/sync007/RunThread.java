@@ -1,5 +1,11 @@
 package com.founder.concurrence.thread.sync007;
-
+/**@Author 7-001
+* @Description: TODO volatile相当于一个轻量级的synchronized锁，但无法代替synchronized；
+ * 				TODO volatile不用把对数据往自己的线程空间（栈桢）copy，节约了复制时间，效率一级棒
+* @Param
+* @Return
+* @Date 2019-04-19 16:45
+*/
 public class RunThread extends Thread{
 
 	private volatile boolean isRunning = true;

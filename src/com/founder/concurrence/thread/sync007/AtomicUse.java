@@ -3,7 +3,12 @@ package com.founder.concurrence.thread.sync007;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
-
+/**@Author 7-003
+* @Description: TODO
+* @Param
+* @Return
+* @Date 2019-04-19 17:00
+*/
 public class AtomicUse {
 
 	private static AtomicInteger count = new AtomicInteger(0);
