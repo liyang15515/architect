@@ -1,10 +1,40 @@
 package com.founder.concurrence.thread.sync005;
 
 /**
- * @Author yanglee
- * @Date 2019-04-18 22:06
- * @Description TODO
- * @Version 1.0
- **/
+ * synchronized异常
+ * @author alienware
+ *
+ */
 public class SyncException {
+
+    private int i = 0;
+    public synchronized void operation(){
+        while(true){
+            try {
+                i++;
+                Thread.sleep(100);
+                System.out.println(Thread.currentThread().getName() + " , i = " + i);
+                if(i == 20){
+                    //Integer.parseInt("a");
+                    throw new RuntimeException();
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+        final SyncException se = new SyncException();
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                se.operation();
+            }
+        },"t1");
+        t1.start();
+    }
+
+
 }
