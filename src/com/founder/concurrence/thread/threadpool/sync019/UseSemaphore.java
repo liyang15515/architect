@@ -3,7 +3,12 @@ package com.founder.concurrence.thread.threadpool.sync019;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
-
+/**@Author yanglee
+* @Description: TODO Semaphore是一个计数信号量，常用于限制可以访问某些资源（物理或逻辑的）线程数目。
+* @Param
+* @Return 
+* @Date 2019-04-23 15:50 
+*/
 public class UseSemaphore {  
   
     public static void main(String[] args) {  

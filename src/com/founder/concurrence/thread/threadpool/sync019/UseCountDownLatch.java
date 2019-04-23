@@ -1,7 +1,12 @@
 package com.founder.concurrence.thread.threadpool.sync019;
 
 import java.util.concurrent.CountDownLatch;
-
+/**@Author yanglee
+* @Description: TODO CountDownLatch是一个同步工具类，它允许一个或多个线程一直等待，直到其他线程的操作执行完后再执行
+* @Param
+* @Return 
+* @Date 2019-04-23 15:37 
+*/
 public class UseCountDownLatch {
 
 	public static void main(String[] args) {
