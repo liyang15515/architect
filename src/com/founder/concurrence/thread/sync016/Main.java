@@ -4,7 +4,19 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
-
+/**@Author yanglee
+* @Description: TODO <p>多线程设计模式之生产者-消费者:<b>
+	生产者-消费者也是一个非常经典的多线程模式，我们在实际开发中应用非常广泛的的思想理念。
+	在生产者-消费者模式中：通常有两类线程，即若干个生产者的线程和若干个消费者的线程。
+	生产者线程负责提交用户请求，
+	消费者线程负责具体处理生产者提交的任务，
+	在生产者和消费者之间通过共享内存缓存区进行通信。
+</b>
+</p>
+* @Param
+* @Return
+* @Date 2019-04-22 10:58
+*/
 public class Main {
 
 	public static void main(String[] args) throws Exception {
@@ -42,7 +54,7 @@ public class Main {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}		
-//		cachePool.shutdown(); 
+//		cachePool.shutdown();
 //		cachePool.shutdownNow();
 		
 
