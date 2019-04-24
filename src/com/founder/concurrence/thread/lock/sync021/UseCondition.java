@@ -3,7 +3,16 @@ package com.founder.concurrence.thread.lock.sync021;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
+/**@Author yanglee
+* @Description: TODO 021-4 Condition的作用是对锁进行更精确的控制。
+				Condition中的await()方法相当于Object的wait()方法，Condition中的signal()方法相当于Object的notify()方法，
+				Condition中的signalAll()相当于Object的notifyAll()方法。
+				不同的是，Object中的wait(),notify(),notifyAll()方法是和”同步锁”(synchronized关键字)捆绑使用的；
+				而Condition是需要与”互斥锁”/”共享锁”捆绑使用的。
+* @Param
+* @Return 
+* @Date 2019-04-24 11:46 
+*/
 public class UseCondition {
 
 	private Lock lock = new ReentrantLock();

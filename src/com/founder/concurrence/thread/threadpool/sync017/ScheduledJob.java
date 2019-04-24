@@ -30,7 +30,7 @@ public class ScheduledJob {
 * @Date 2019-04-23 10:20
 */
     	Temp command = new Temp();
-        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);//spring框架的Scheduled定时任务就是基于newScheduledThreadPool
         /**@Author yanglee
         * @Description: TODO ScheduleWithFixedDelay 每次执行时间为上一次任务结束起向后推一个时间间隔，
                              即每次执行时间为：initialDelay, initialDelay+executeTime+delay, initialDelay+2*executeTime+2*delay

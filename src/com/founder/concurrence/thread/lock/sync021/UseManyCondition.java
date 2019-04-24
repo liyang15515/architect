@@ -2,7 +2,12 @@ package com.founder.concurrence.thread.lock.sync021;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
-
+/**@Author yanglee
+* @Description: TODO 021-5
+* @Param
+* @Return
+* @Date 2019-04-24 12:06
+*/
 public class UseManyCondition {
 
 	private ReentrantLock lock = new ReentrantLock();

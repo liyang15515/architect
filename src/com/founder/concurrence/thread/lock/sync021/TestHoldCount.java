@@ -7,6 +7,12 @@ import java.util.concurrent.locks.ReentrantLock;
  * 那么我可以在m1方法里去调用m2方法，同时m1方法和m2方法都持有lock锁定即可 测试结果holdCount数递增
  *
  */
+/**@Author yanglee
+* @Description: TODO 重入锁021-2
+* @Param 
+* @Return 
+* @Date 2019-04-24 10:53 
+*/
 public class TestHoldCount {
 
 	//重入锁
@@ -24,6 +30,7 @@ public class TestHoldCount {
 			e.printStackTrace();
 		} finally {
 			lock.unlock();
+			System.out.println("出m1方法，holdCount数为：" + lock.getHoldCount());
 		}
 	}
 	
@@ -35,6 +42,7 @@ public class TestHoldCount {
 			e.printStackTrace();
 		} finally {
 			lock.unlock();
+			System.out.println("出m2方法，holdCount数为：" + lock.getHoldCount());
 		}
 	}
 	

@@ -9,8 +9,8 @@ public class MyRejected implements RejectedExecutionHandler{
 	public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
 		System.out.println("自定义处理");
 		
-		System.out.println(r.toString());
-		System.out.println(executor.getQueue().size());
+		System.out.println("自定义处理"+r.toString());
+		System.out.println("自定义处理"+executor.getQueue().size());
 		
 	}
 

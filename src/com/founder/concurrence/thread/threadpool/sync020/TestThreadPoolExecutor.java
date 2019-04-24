@@ -1,5 +1,6 @@
 package com.founder.concurrence.thread.threadpool.sync020;
 
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -11,14 +12,14 @@ public class TestThreadPoolExecutor {
 		
 		ThreadPoolExecutor pool = new ThreadPoolExecutor(
 				2, 												//核心的线程数量
-				100, 											//最大的线程数量
+				2, 											//最大的线程数量
 				10, 											//空闲数值 
 				TimeUnit.SECONDS, 								//空闲时间单位
-				//new ArrayBlockingQueue<Runnable>(3)
+//				new ArrayBlockingQueue<>(2)
+//				new LinkedBlockingQueue<Runnable>(2)
 				new LinkedBlockingQueue<Runnable>()
-				
-				//new MyRejected()
-				); 			//队列容器
+//				,new MyRejected()
+				); 			//队列容器自定义处理
 		
 		Task t1 = new Task(1, "任务" + 1);
 		Task t2 = new Task(2, "任务" + 2);
@@ -36,16 +37,12 @@ public class TestThreadPoolExecutor {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}		
-		System.out.println(pool.getQueue().size());
+		System.out.println("1,queue size:"+pool.getQueue().size());
 		try {
 			Thread.sleep(6000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println(pool.getQueue().size());
-		
-							
-		
-		
+		System.out.println("2,queue size:"+pool.getQueue().size());
 	}
 }
