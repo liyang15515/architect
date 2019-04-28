@@ -18,7 +18,7 @@ public class Server implements Runnable{
 	private ByteBuffer writeBuf = ByteBuffer.allocate(1024);
 	public Server(int port){
 		try {
-			//1 打开路复用器
+			//1 打开路复用器（选择器）
 			this.seletor = Selector.open();
 			//2 打开服务器通道
 			ServerSocketChannel ssc = ServerSocketChannel.open();
@@ -40,7 +40,7 @@ public class Server implements Runnable{
 	public void run() {
 		while(true){
 			try {
-				//1 必须要让多路复用器开始监听
+				//1 必须要让多路复用器开始监听(轮询)
 				this.seletor.select();
 				//2 返回多路复用器已经选择的结果集
 				Iterator<SelectionKey> keys = this.seletor.selectedKeys().iterator();
@@ -61,9 +61,9 @@ public class Server implements Runnable{
 							this.read(key);
 						}
 						//9 写数据
-						if(key.isWritable()){
-							//this.write(key); //ssc
-						}
+//						if(key.isWritable()){
+//							this.write(key); //ssc
+//						}
 					}
 					
 				}
@@ -75,6 +75,7 @@ public class Server implements Runnable{
 	
 	private void write(SelectionKey key){
 		//ServerSocketChannel ssc =  (ServerSocketChannel) key.channel();
+		//服务端一般不注册 可写事件
 		//ssc.register(this.seletor, SelectionKey.OP_WRITE);
 	}
 
@@ -116,9 +117,9 @@ public class Server implements Runnable{
 			ServerSocketChannel ssc =  (ServerSocketChannel) key.channel();
 			//2 执行阻塞方法
 			SocketChannel sc = ssc.accept();
-			//3 设置阻塞模式
+			//3 设置阻塞模式 为非阻塞
 			sc.configureBlocking(false);
-			//4 注册到多路复用器上，并设置读取标识
+			//4 注册读事件（服务端一般不注册 可写事件）
 			sc.register(this.seletor, SelectionKey.OP_READ);
 		} catch (IOException e) {
 			e.printStackTrace();

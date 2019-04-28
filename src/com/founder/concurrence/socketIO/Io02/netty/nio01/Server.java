@@ -1,4 +1,4 @@
-package com.founder.concurrence.socketIO.Io02.netty.helloworld;
+package com.founder.concurrence.socketIO.Io02.netty.nio01;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -35,7 +35,7 @@ public class Server {
 		});
 		
 		//4 进行绑定 
-		ChannelFuture cf1 = b.bind(8765).sync();
+		ChannelFuture cf1 = b.bind(8761).sync();
 		//ChannelFuture cf2 = b.bind(8764).sync();
 		//5 等待关闭
 		cf1.channel().closeFuture().sync();

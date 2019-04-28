@@ -19,6 +19,7 @@ public class Server {
 			Socket socket = server.accept();
 			//新建一个线程执行客户端的任务
 			new Thread(new ServerHandler(socket)).start();
+			//传统的TCP点对点直连接的方式，每一个连接在server端都要创建一个线程；windows最大支持1000个线程，unix最大支持2000个线程；
 			
 		} catch (Exception e) {
 			e.printStackTrace();

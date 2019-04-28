@@ -1,4 +1,4 @@
-package com.founder.concurrence.socketIO.Io02.netty.helloworld;
+package com.founder.concurrence.socketIO.Io02.netty.nio01;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.Unpooled;
@@ -24,7 +24,7 @@ public class Client {
 			}
 		});
 		
-		ChannelFuture cf1 = b.connect("127.0.0.1", 8765).sync();
+		ChannelFuture cf1 = b.connect("127.0.0.1", 8761).sync();
 		//ChannelFuture cf2 = b.connect("127.0.0.1", 8764).sync();
 		//发送消息
 		Thread.sleep(1000);

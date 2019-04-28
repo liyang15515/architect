@@ -1,11 +1,13 @@
 package com.founder.concurrence.socketIO.IO01.nio.test;
 
+import java.nio.IntBuffer;
+
 public class TestBuffer {
 	
 	public static void main(String[] args) {
 		
 		// 1 基本操作
-		/**
+
 		//创建指定长度的缓冲区
 		IntBuffer buf = IntBuffer.allocate(10);
 		buf.put(13);// position位置：0 - > 1
@@ -28,7 +30,6 @@ public class TestBuffer {
 			System.out.print(buf.get() + "\t");
 		}
 		System.out.println("buf对象遍历之后为: " + buf);
-		*/
 		
 		// 2 wrap方法使用
 		/**
