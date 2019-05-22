@@ -8,14 +8,19 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-
+/**@Author yanglee
+* @Description: TODO netty如何实现通信  客户端
+* @Param
+* @Return
+* @Date 2019-04-28 21:42
+*/
 public class Client {
 
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception {
 		
-		EventLoopGroup group = new NioEventLoopGroup();
+		EventLoopGroup workgroup = new NioEventLoopGroup();
 		Bootstrap b = new Bootstrap();
-		b.group(group)
+		b.group(workgroup)
 		.channel(NioSocketChannel.class)
 		.handler(new ChannelInitializer<SocketChannel>() {
 			@Override
@@ -24,22 +29,13 @@ public class Client {
 			}
 		});
 		
-		ChannelFuture cf1 = b.connect("127.0.0.1", 8761).sync();
-		//ChannelFuture cf2 = b.connect("127.0.0.1", 8764).sync();
-		//发送消息
-		Thread.sleep(1000);
+		ChannelFuture cf1 = b.connect("127.0.0.1", 8765).sync();
+		
+		//buf
 		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("777".getBytes()));
-		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("666".getBytes()));
-		//cf2.channel().writeAndFlush(Unpooled.copiedBuffer("888".getBytes()));
-		Thread.sleep(2000);
-		cf1.channel().writeAndFlush(Unpooled.copiedBuffer("888".getBytes()));
-		//cf2.channel().writeAndFlush(Unpooled.copiedBuffer("666".getBytes()));
 		
 		cf1.channel().closeFuture().sync();
-		//cf2.channel().closeFuture().sync();
-		group.shutdownGracefully();
-		
-		
+		workgroup.shutdownGracefully();
 		
 	}
 }

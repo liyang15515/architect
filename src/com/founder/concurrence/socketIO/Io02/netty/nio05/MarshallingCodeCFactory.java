@@ -1,4 +1,4 @@
-package com.founder.concurrence.netty.netty.heartBeat;
+package com.founder.concurrence.socketIO.Io02.netty.nio05;
 
 import io.netty.handler.codec.marshalling.*;
 import org.jboss.marshalling.MarshallerFactory;

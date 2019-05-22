@@ -129,7 +129,7 @@ public final class HttpUploadClient {
         encoder.addParam("secondinfo", "secondvalue ???&");
         // not the big one since it is not compatible with GET size
         // encoder.addParam("thirdinfo", textArea);
-        encoder.addParam("thirdinfo", "third value\r\ntest second line\r\n\r\nnew line\r\n");
+        encoder.addParam("thirdinfo", "third value\r\nnio01 second line\r\n\r\nnew line\r\n");
         encoder.addParam("Send", "Send");
 
         URI uriGet = new URI(encoder.toString());
@@ -208,7 +208,7 @@ public final class HttpUploadClient {
         // send request
         channel.write(request);
 
-        // test if request was chunked and if so, finish the write
+        // nio01 if request was chunked and if so, finish the write
         if (bodyRequestEncoder.isChunked()) { // could do either request.isChunked()
             // either do it through ChunkedWriteHandler
             channel.write(bodyRequestEncoder);
@@ -260,7 +260,7 @@ public final class HttpUploadClient {
         // send request
         channel.write(request);
 
-        // test if request was chunked and if so, finish the write
+        // nio01 if request was chunked and if so, finish the write
         if (bodyRequestEncoder.isChunked()) {
             channel.write(bodyRequestEncoder);
         }
