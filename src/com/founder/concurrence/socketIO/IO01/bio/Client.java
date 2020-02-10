@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class Client {
 
-	final static String ADDRESS = "172.20.15.5";
+	final static String ADDRESS = "10.110.101.72";
 	final static int PORT = 8765;
 	
 	public static void main(String[] args) {

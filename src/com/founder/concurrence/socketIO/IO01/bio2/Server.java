@@ -18,8 +18,11 @@ public class Server {
 			System.out.println("server start");
 			Socket socket = null;
 			HandlerExecutorPool executorPool = new HandlerExecutorPool(50, 1000);
+			int count = 0;
 			while(true){
+				System.out.println("阻塞，第"+count+"次请求");
 				socket = server.accept();
+				System.out.println("阻塞通了，处理第"+(count++)+"次请求");
 				executorPool.execute(new ServerHandler(socket));
 			}
 			

@@ -9,5 +9,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" name="disruptor-3.3.2" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="junit-4.8.2" level="project" />
+    <orderEntry type="library" name="msgpack-0.6.12" level="project" />
+    <orderEntry type="library" name="fastjson-1.2.61" level="project" />
   </component>
 </module>

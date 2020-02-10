@@ -38,7 +38,6 @@ public class Server {
 				sc.pipeline().addLast(new ServerHandler());
 			}
 		});
-		
 		//4 进行绑定 
 		ChannelFuture cf1 = b.bind(8761).sync();
 		//ChannelFuture cf2 = b.bind(8764).sync();
